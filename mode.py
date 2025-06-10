@@ -17,7 +17,7 @@ def train(args):
     
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
-    transform  = transforms.Compose([crop(args.scale, args.patch_size), augmentation()])
+    transform = transforms.Compose([crop(args.scale, args.patch_size), augmentation()])
     dataset = mydata(GT_path = args.GT_path, LR_path = args.LR_path, in_memory = args.in_memory, transform = transform)
     loader = DataLoader(dataset, batch_size = args.batch_size, shuffle = True, num_workers = args.num_workers)
     
