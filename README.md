@@ -86,8 +86,8 @@ from skimage.metrics import structural_similarity as ssim
 
 ## ✍️ Credits
 
-- Developed by: **[Pramodd, Toshan, Jashwanth]**
-- Institution: [Chandigarh University]
+- Developed by: **Pramodd, Toshan, Jashwanth**
+- Institution: Chandigarh University
 - For: Mini Project, Semester 6
 
 ---
